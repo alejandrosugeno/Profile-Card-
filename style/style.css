@@ -1,0 +1,45 @@
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+
+    --Name-stats-Font-size : 18px
+}
+html,
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    /*background: var(--Dark-cyan);*/
+}
+.profile-card{
+    border-radius: 8px;
+    width: 85%;
+    margin: 0 auto;
+}
+.profile-card-top{
+    background-image: url('../asets/bg-pattern-card.svg');
+    
+}
+.profile-card-top img{
+border-radius: 50%;
+border: 5px solid white;
+}
+.profile-card-bottom__datos-seguidores{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--Dark-grayish-blue);
+}
+.profile-card-bottom__datos-seguidores div p:nth-child(1){
+font-size: var(--Name-stats-Font-size);
+font-weight: 700;
+text-align: center;
+}
+profile-card-bottom__datos-seguidores div p:nth-child(2){
+font-weight: 400;
+color: var(--Dark-gray);
+font-size: 14px;
+text-align: center;
+}
